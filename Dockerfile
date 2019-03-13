@@ -5,4 +5,4 @@ FROM tomcat:8
 MAINTAINER "mmrmurali@gmail.com"
 
 # Copy the war and place to webapps in container tomcat
-COPY webapp/*.war /usr/local/tomcat/webapps/
+COPY target1/*.war /usr/local/tomcat/webapps/
